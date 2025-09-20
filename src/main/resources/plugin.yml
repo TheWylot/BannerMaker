@@ -29,6 +29,7 @@ permissions:
       BannerMaker.see: true
       BannerMaker.view: true
       BannerMaker.show: true
+      BannerMaker.help: true
   BannerMaker.use:
     description: Permission of using BannerMaker
     default: true
@@ -49,6 +50,9 @@ permissions:
     default: true
   BannerMaker.view:
     description: View banner info of the banner command
+    default: true
+  BannerMaker.help:
+    description: Permission of using help command
     default: true
   BannerMaker.show:
     description: Show banner info to players

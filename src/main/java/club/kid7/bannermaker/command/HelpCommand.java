@@ -15,7 +15,7 @@ public class HelpCommand extends CommandComponent {
     //介紹
     private static final String description = "Command list";
     //權限
-    private static final String permission = null;
+    private static final String permission = "BannerMaker.help";
     //使用方法
     private static final String usage = "/bm help";
     //僅能由玩家執行
